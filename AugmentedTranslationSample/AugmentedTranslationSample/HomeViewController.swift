@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    let demos = ["Cognitive Services OCR","Barcode", "Barcode Generator"]
+    let demos = ["Cognitive Services OCR","Barcode", "Barcode Generator", "Constraint","PhotoEditor", "FacialRecognition"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +52,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         switch identifier {
             
             
-        case "Cognitive Services OCR", "Barcode", "Barcode Generator":
+        case "Cognitive Services OCR", "Barcode", "Barcode Generator", "Constraint", "PhotoEditor", "FacialRecognition":
             self.performSegue(withIdentifier: identifier, sender: self)
             
             

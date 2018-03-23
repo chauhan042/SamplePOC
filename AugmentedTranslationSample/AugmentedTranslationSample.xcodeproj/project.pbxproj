@@ -28,6 +28,11 @@
 		AA34FC6420282FF2006169A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34FC6320282FF2006169A2 /* HomeViewController.swift */; };
 		AA34FC6620286C6E006169A2 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34FC6520286C6D006169A2 /* BarViewController.swift */; };
 		AA4C4E0D204402E000484489 /* BarCodeGenaratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4E0C204402E000484489 /* BarCodeGenaratorVC.swift */; };
+		AA85B8F32064CAE1008149CC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85B8F22064CAE1008149CC /* ImageViewController.swift */; };
+		AA85B8F52064D3D4008149CC /* ios_license in Resources */ = {isa = PBXBuildFile; fileRef = AA85B8F42064D3D4008149CC /* ios_license */; };
+		AA85B8FB2064FDE3008149CC /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85B8FA2064FDE3008149CC /* FaceViewController.swift */; };
+		AA85B8FD2064FF3B008149CC /* hige_100.png in Resources */ = {isa = PBXBuildFile; fileRef = AA85B8FC2064FF3A008149CC /* hige_100.png */; };
+		AA8A78622057A7F700E54942 /* ConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A78612057A7F700E54942 /* ConstraintViewController.swift */; };
 		C1501D060771FD880808397F /* Pods_AugmentedTranslationSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8B4C56F5021C7BCE761037 /* Pods_AugmentedTranslationSample.framework */; };
 		E21C804949668A285FDB981B /* Pods_AugmentedTranslationSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028A556F0D2F860AFA291E72 /* Pods_AugmentedTranslationSampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +88,11 @@
 		AA34FC6520286C6D006169A2 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		AA4C4E0C204402E000484489 /* BarCodeGenaratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeGenaratorVC.swift; sourceTree = "<group>"; };
 		AA4C4E0E204413EA00484489 /* AugmentedTransitionSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AugmentedTransitionSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA85B8F22064CAE1008149CC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AA85B8F42064D3D4008149CC /* ios_license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios_license; sourceTree = "<group>"; };
+		AA85B8FA2064FDE3008149CC /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		AA85B8FC2064FF3A008149CC /* hige_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hige_100.png; sourceTree = "<group>"; };
+		AA8A78612057A7F700E54942 /* ConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintViewController.swift; sourceTree = "<group>"; };
 		BC3F48A349AC16F68E2838D0 /* Pods-AugmentedTranslationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedTranslationSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedTranslationSample/Pods-AugmentedTranslationSample.release.xcconfig"; sourceTree = "<group>"; };
 		CED477C46F1BC84580A23ED0 /* Pods-AugmentedTranslationSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedTranslationSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedTranslationSampleTests/Pods-AugmentedTranslationSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5C1D9DD0597A0F27CCE5FC4 /* Pods_AugmentedTranslationSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentedTranslationSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +142,8 @@
 				AA34FC4C202074CA006169A2 /* CognitiveServices.swift */,
 				AA34FC4B202074CA006169A2 /* JSONNSDataExtension.swift */,
 				AA4C4E0E204413EA00484489 /* AugmentedTransitionSample-Bridging-Header.h */,
+				AA85B8F42064D3D4008149CC /* ios_license */,
+				AA85B8FC2064FF3A008149CC /* hige_100.png */,
 				AA34FC51202074EA006169A2 /* Swift Extensions */,
 				AA34FC3E20206682006169A2 /* ComputerVision */,
 				AA34FC0B201EEEEF006169A2 /* AugmentedTranslationSample */,
@@ -162,6 +174,9 @@
 				AA34FC6320282FF2006169A2 /* HomeViewController.swift */,
 				AA34FC6520286C6D006169A2 /* BarViewController.swift */,
 				AA4C4E0C204402E000484489 /* BarCodeGenaratorVC.swift */,
+				AA8A78612057A7F700E54942 /* ConstraintViewController.swift */,
+				AA85B8F22064CAE1008149CC /* ImageViewController.swift */,
+				AA85B8FA2064FDE3008149CC /* FaceViewController.swift */,
 				AA34FC10201EEEEF006169A2 /* Main.storyboard */,
 				AA34FC13201EEEEF006169A2 /* Assets.xcassets */,
 				AA34FC15201EEEEF006169A2 /* LaunchScreen.storyboard */,
@@ -338,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA85B8F52064D3D4008149CC /* ios_license in Resources */,
+				AA85B8FD2064FF3B008149CC /* hige_100.png in Resources */,
 				AA34FC17201EEEEF006169A2 /* LaunchScreen.storyboard in Resources */,
 				AA34FC14201EEEEF006169A2 /* Assets.xcassets in Resources */,
 				AA34FC12201EEEEF006169A2 /* Main.storyboard in Resources */,
@@ -467,10 +484,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedTranslationSample/Pods-AugmentedTranslationSample-frameworks.sh",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM",
 				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhotoEditorSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/PhotoEditorSDK.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +539,8 @@
 				AA34FC4D202074CA006169A2 /* JSONNSDataExtension.swift in Sources */,
 				AA34FC4A20206683006169A2 /* TagImage.swift in Sources */,
 				AA34FC4820206683006169A2 /* OCR.swift in Sources */,
+				AA85B8FB2064FDE3008149CC /* FaceViewController.swift in Sources */,
+				AA85B8F32064CAE1008149CC /* ImageViewController.swift in Sources */,
 				AA34FC4520206683006169A2 /* AnalyzeImage.swift in Sources */,
 				AA34FC4E202074CA006169A2 /* CognitiveServices.swift in Sources */,
 				AA34FC4920206683006169A2 /* RecognizeDomainSpecificContent.swift in Sources */,
@@ -528,6 +551,7 @@
 				AA4C4E0D204402E000484489 /* BarCodeGenaratorVC.swift in Sources */,
 				AA34FC53202074EA006169A2 /* StringExtension.swift in Sources */,
 				AA34FC552021CC8E006169A2 /* AugViewController.swift in Sources */,
+				AA8A78622057A7F700E54942 /* ConstraintViewController.swift in Sources */,
 				AA34FC6420282FF2006169A2 /* HomeViewController.swift in Sources */,
 				AA34FC4720206683006169A2 /* ListDomainSpecificModels.swift in Sources */,
 			);

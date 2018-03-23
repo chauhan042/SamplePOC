@@ -1,14 +1,17 @@
 PODS:
+  - PhotoEditorSDK (8.2.3)
   - ZXingObjC (3.2.2):
     - ZXingObjC/All (= 3.2.2)
   - ZXingObjC/All (3.2.2)
 
 DEPENDENCIES:
+  - PhotoEditorSDK
   - ZXingObjC (~> 3.2.2)
 
 SPEC CHECKSUMS:
+  PhotoEditorSDK: 56419c442dce37a6a406efcb1a280b1126e23845
   ZXingObjC: 2c95a0dc52daac69b23ec78fad8fa2fec05f8981
 
-PODFILE CHECKSUM: a871e004c85d9eb9084678e53bfddf72ba8a8d17
+PODFILE CHECKSUM: 550e9f354f99e247ee26dd9cf7edd65a6671951c
 
 COCOAPODS: 1.4.0
